@@ -1,0 +1,10 @@
+import java.io.*;
+Class PrintInt{
+  public static void main(String arg[])
+ {
+   DataInputStream d=new DataInputStream(System.in);
+   System.out.println("Enter the Integer:");
+   int a=Integer. parseInt(d.readline());
+   System.out.println("your integer: "+a);
+}
+}
