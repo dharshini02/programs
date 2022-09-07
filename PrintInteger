@@ -1,5 +1,5 @@
 import java.io.*;
-Class PrintInt{
+class PrintInt{
   public static void main(String arg[])
  {
    DataInputStream d=new DataInputStream(System.in);
