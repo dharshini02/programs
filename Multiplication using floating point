@@ -1,0 +1,13 @@
+import java.io.*;
+class Main{
+  public static void main(String arg[])throws Exception
+ {
+   DataInputStream d=new DataInputStream(System.in);
+   System.out.println("Enter the value a:");
+   float a=Float. parseFloat(d.readLine());
+   System.out.println("Enter the value b:");
+   float b=Float.parseFloat(d.readLine());
+   float c=a*b;
+   System.out.println("Added value is :"+c);
+}
+}
