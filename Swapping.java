@@ -11,6 +11,8 @@ class Swap
         int c=a;
         a=b;
         b=c;
-        System.out.println("swap values are is="+a,b);
+        System.out.println("swap values of a="+a);
+        System.out.println("swap values of b="+b);
+
     }
 }
