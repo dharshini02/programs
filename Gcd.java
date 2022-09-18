@@ -3,6 +3,8 @@ public class Gcd{
  {
    if(b!=0)
      return recursiongcd(b,a%b);
+   else
+     return a;
   }
 public static void main(String []ar)throws Exception
 {
