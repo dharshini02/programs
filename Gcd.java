@@ -4,7 +4,7 @@ public static int recursiongcd(int a,int b);
    if(b!=0)
      return recursiongcd(b,a%b);
    else
-     return ;
+     return a ;
   }
 public static void main(String []ar)throws Exception
 {
