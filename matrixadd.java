@@ -10,7 +10,7 @@ public class matrixadd{
   int m=sc.nextInt();
   System.out.println("enter the second matrix row value:");
   int p=sc.nextInt();
-  System.out.println("enter the second matrix row value:");
+  System.out.println("enter the second matrix column value:");
   int q=sc.nextInt();
   int a[][]=new int[n][m];
   int b[][]=new int[p][q];
