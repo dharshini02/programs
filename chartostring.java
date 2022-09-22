@@ -10,8 +10,8 @@ class chartostring{
 
 class chartostring{
  public static void main(String[]ar){
-  char c[]={'a','e','i','o','u};
-  String str[]=c.toString();
-  System. out.println(str);
+  char c[]={'a','e','i','o','u'};
+  String str=c.toString();
+  System.out.println(str);
 }
 }
