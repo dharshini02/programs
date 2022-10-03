@@ -19,7 +19,7 @@ class remove_duplicate_array{
         int arr[]={1,1,2,2,3,3};
         int n=arr.length;
        int arr1=remove_duplicate(arr,n);
-        for(int i=0;i<n-1;i++){
+        for(int i=0;i<arr1;i++){
         System.out.println(arr[i]);
         }
     }
