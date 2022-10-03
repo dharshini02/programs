@@ -1,0 +1,32 @@
+import java.io.*;
+public class linear_search
+{
+	public static void main(String[] args)throws IOException
+	{
+	    DataInputStream d=new DataInputStream(System.in);
+		System.out.print("Enter the limit");
+		int i;
+		int n=Integer.parseInt(d.readLine());
+		 int[] arr=new int[30];
+		 System.out.print("Enter the array value")
+		for(i=0;i<=n;i++)
+		{
+		    arr[i]=Integer.parseInt(d.readLine());
+		}
+		System.out.print("Enter the search elements");
+		int l=Integer.parseInt(d.readLine());
+		for(int j=0;j<n;j++)
+		{
+		    if(arr[i]==l)
+		    {
+		        System.out.print(" exists");
+		        break;
+		    }
+		    else
+		    {
+		        System.out.print("not exists");
+		        break;
+		    }
+		}
+}
+}
